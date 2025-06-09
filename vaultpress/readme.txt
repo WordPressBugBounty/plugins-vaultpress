@@ -3,7 +3,7 @@ Contributors: automattic, annezazu, apokalyptik, bjorsch, briancolinger, dsmart,
 Tags: security, malware, virus, archive, back up, back ups, backup, backups, scanning, restore, wordpress backup, site backup, website backup
 Requires at least: 5.2
 Tested up to: 6.8
-Stable tag: 4.0.1
+Stable tag: 4.0.2
 Requires PHP: 7.2
 License: GPLv2
 
@@ -32,16 +32,18 @@ View our full list of FAQs at [http://help.vaultpress.com/faq/](http://help.vaul
 A Jetpack VaultPress subscription is for a single WordPress site.
 
 == Changelog ==
-### 4.0.1 - 2025-04-07
+### 4.0.2 - 2025-06-09
 #### Changed
-- Code: First pass of style coding standards.
-- Code: Use function-style `exit()` and `die()` with a default status code of 0.
-- General: Indicate compatibility with WordPress 6.8.
 - Update package dependencies.
 
 #### Fixed
-- Code: Prevent dynamic class properties.
-- Code: Remove extra params on function calls.
+- Code: Update stylesheets to use hex instead of named colors.
+- Code: Update stylesheets to use WordPress font styles.
+- Linting: Clean up various Stylelint violations.
+- Linting: Do additional stylesheet cleanup.
+- Linting: Fix more Stylelint violations.
+- Linting: Remove outdated vendor prefixes in stylesheets.
+- Linting: Use double colon notation for pseudo-element selectors.
 
 --------
 
